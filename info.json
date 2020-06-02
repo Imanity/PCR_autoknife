@@ -7,9 +7,9 @@
         "boss": [
             { "name": "双足飞龙", "hp": 600, "score": 1.0 },
             { "name": "野性狮鹫", "hp": 800, "score": 1.0 },
-            { "name": "猪", "hp": 1000, "score": 1.1 },
-            { "name": "鹿", "hp": 1200, "score": 1.1 },
-            { "name": "牛", "hp": 2000, "score": 1.2 }
+            { "name": "兽人头目", "hp": 1000, "score": 1.1 },
+            { "name": "灵魂角鹿", "hp": 1200, "score": 1.1 },
+            { "name": "弥诺陶洛斯", "hp": 2000, "score": 1.2 }
         ]
     },
     "guild_info": {

@@ -134,6 +134,7 @@ for it in range(0, n_iter):
     seeds = new_seeds
 
 # 输出最佳排刀
+print('\n')
 simulate(best_seed)
 
 # 收敛曲线绘制
