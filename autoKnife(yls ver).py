@@ -104,6 +104,9 @@ for it in range(0, n_iter):
             break
     # 变异
     now_len = len(new_seeds)
+    if now_len == 0:
+        now_len = 1
+        new_seeds.append(seeds[0]) # 没变异出好种子也向种子池扔个种子进去,防止bug
     for i in range(n_seed - now_len):
         new_seeds.append(mutate_seed(new_seeds[random.randint(0, now_len - 1)]))
     seeds = new_seeds
